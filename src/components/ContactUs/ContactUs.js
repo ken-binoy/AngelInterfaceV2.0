@@ -21,7 +21,7 @@ function ContactUs() {
           bgColor="transparent"
         />
         <SocialIcon
-          url="mailto: support@thegreenyoga.com"
+          url="mailto: athunchindu1234@gmail.com"
           fgColor="grey"
           bgColor="transparent"
         />
