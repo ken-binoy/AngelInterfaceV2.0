@@ -1,0 +1,80 @@
+/* General resets and defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .services-images {
+      flex-direction: column;
+    }
+  
+    .service-item {
+      margin-bottom: 20px;
+      text-align: center; /* Center align text on smaller screens */
+    }
+  
+    .service-item img {
+      width: 80px;
+    }
+  
+    .why-choose-us {
+      width: 90%; /* Adjust width for smaller screens */
+      max-width: 100%; /* Ensure it takes full width on smaller screens */
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .vision-mission-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+  }
+  
+  /* Services section */
+  .services-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .service-item {
+    padding: 20px;
+    background-color: #fefeff; /* Transparent background color */
+    border-radius: 8px;
+    box-shadow: none; /* Remove box shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .service-item h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  
+  
+  
+  
+  
