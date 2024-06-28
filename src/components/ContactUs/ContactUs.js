@@ -35,6 +35,11 @@ function ContactUs() {
           fgColor="grey"
           bgColor="transparent"
         />
+        <SocialIcon
+          url="https://wa.link/rwf4hu"
+          fgColor="grey"
+          bgColor="transparent"
+        />
         <Row style={{ justifyContent: "center" }}>
         <Col md={5} style={{ paddingBottom: 10 }}>
               <img
