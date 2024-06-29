@@ -37,7 +37,7 @@ function ContactUs() {
           fgColor="grey"
           bgColor="transparent"
         />
-        <Row style={{ justifyContent: "center" }}>
+        <Row style={{ justifyContent: "center", marginBottom: "20px" }}>
           <Col md={5} style={{ paddingBottom: 10 }}>
             <img
               src={contactus}
@@ -47,15 +47,8 @@ function ContactUs() {
             />
           </Col>
         </Row>
-        <Row
-          style={{
-            position: "absolute",
-            bottom: "10px",
-            left: "10px",
-            color: "gray"
-          }}
-        >
-          <Col md={12} style={{ textAlign: "left" }}>
+        <Row>
+          <Col md={12} style={{ textAlign: "left", color: "gray" }}>
             <address>
               Angelinterface IT Solutions<br />
               B-156 Eric Crescent<br />
