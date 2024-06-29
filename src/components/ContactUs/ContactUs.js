@@ -50,7 +50,7 @@ function ContactUs() {
         <Row>
           <Col md={12} style={{ textAlign: "left", color: "gray" }}>
             <address>
-              Angelinterface IT Solutions<br />
+              <span style={{ color: "black" }}>Angelinterface IT Solutions</span><br />
               B-156 Eric Crescent<br />
               Timmins, ON<br />
               P0N 1K0
